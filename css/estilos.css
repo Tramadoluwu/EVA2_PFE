@@ -2,309 +2,31 @@ nav a:hover{
     text-decoration: underline;
 }
 
-#contenedorn1 {
-    clear: both;
-    width: 94.5%;
-    padding-left: 200px;
-    padding-right: 50px;
-    margin-top: 30px;
-}
-
-#caja1{
-    background-color: #212529;
-    width: 30%;
-    height: 600px;
-    padding: 15px;
-    float: left;
-    border: 5px solid white;
-    
-}
-
-
-#caja1 img{
-    width: 100%;
-    height: 90%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 20px;
-}
-
-#tabla{
-    background-color: #212529;
-    width: 97.9%;
-    height: 600px;
-    padding: 15px;
-    padding-left: 20px;
-    border: 5px solid white;
-    
-    
-}
-
-#tabla p{
-    color: white;
-    font-size: 25px;
-    text-align: justify;
-    padding-top: 30px;
-    padding-left:500px;
-    padding-right:50px ;
-}
-
-#tabla a{
-    text-align: center;
-    color: pink;
-    padding-left:5px;
-}
-
-#contenedorn2 {
-    clear: both;
-    width: 94.5%;
-    padding-left: 200px;
-    padding-right: 50px;
-    margin-top: 30px;
-}
-
-#caja2{
-    background-color: #212529;
-    width: 30%;
-    height: 600px;
-    padding: 15px;
-    float: left;
-    border: 5px solid white;
-    
-}
-
-
-#caja2 img{
-    width: 100%;
-    height: 90%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 20px;
-}
-
-#tabla2{
-    background-color: #212529;
-    width: 97.9%;
-    height: 600px;
-    padding: 15px;
-    padding-left: 20px;
-    border: 5px solid white;
-    
-    
-}
-
-#tabla2 p{
-    color: white;
-    font-size: 25px;
-    text-align: justify;
-    padding-top: 30px;
-    padding-left:500px;
-    padding-right:50px ;
-}
-
-#tabla2 a{
-    text-align: center;
-    color: pink;
-    padding-left:5px;
-}
-
-#contenedorn3 {
-    clear: both;
-    width: 94.5%;
-    padding-left: 200px;
-    padding-right: 50px;
-    margin-top: 30px;
-}
-
-#caja3{
-    background-color: #212529;
-    width: 30%;
-    height: 600px;
-    padding: 15px;
-    float: left;
-    border: 5px solid white;
-    
-}
-
-
-#caja3 img{
-    width: 100%;
-    height: 90%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 20px;
-}
-
-#tabla3{
-    background-color: #212529;
-    width: 97.9%;
-    height: 600px;
-    padding: 15px;
-    padding-left: 20px;
-    border: 5px solid white;
-    
-    
-}
-
-#tabla3 p{
-    color: white;
-    font-size: 25px;
-    text-align: justify;
-    padding-top: 30px;
-    padding-left:500px;
-    padding-right:50px ;
-}
-
-#tabla3 a{
-    text-align: center;
-    color: pink;
-    padding-left:5px;
-}
-
 .card-img-top{
     width: 65%;
     border-radius: 50%;
     margin: 0 auto;
     margin-top: 5px;
 }
+
 .card{
     text-align: center;
     background-color: #212529;
     margin-top: 40px;
-    color: white;
-    margin-left: 40%;
-}
-
-footer{
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 40px;
     margin-bottom: 40px;
-}
-footer h4{
-    padding-top: 20px;
-    padding-bottom:20px ;
-}
+    color: white;
+    border: 5px solid white;
 
+}
 
 
 @media screen and (max-width:700px){
+
+    .card-text{
+        display: none;
+    }
+
     
-    #contenedorn1{
-        padding-left: 60px;
-        padding-right: 10px;
-    }
 
-    #caja1{
-        width: 40%;
-        height: 400px;
-        margin-left: 0;
-        margin-right:0;
-    }
-
-    #caja1 img{
-        width: 100%;
-        height: 75%;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    #tabla{
-        width: 96%;
-        height: 400px;
-        padding: 5px;
-    }
-
-    #tabla p{
-        color: white;
-        font-size: 13px;
-        text-align: justify;
-        padding-top: 0;
-        padding-left:10px;
-        padding-right:0 ;
-    }
-
-    #tabla a{
-        padding-left:5px;
-    }
-
-    #contenedorn2{
-        padding-left: 60px;
-        padding-right: 10px;
-    }
-
-    #caja2{
-        width: 40%;
-        height: 400px;
-        margin-left: 0;
-        margin-right:0;
-    }
-
-    #caja2 img{
-        width: 100%;
-        height: 75%;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    #tabla2{
-        width: 96%;
-        height: 400px;
-        padding: 5px;
-    }
-
-    #tabla2 p{
-        color: white;
-        font-size: 13px;
-        text-align: justify;
-        padding-top: 0;
-        padding-left:10px;
-        padding-right:0 ;
-    }
-
-    #tabla2 a{
-        padding-left:5px;
-    }
-    #contenedorn3{
-        padding-left: 60px;
-        padding-right: 10px;
-    }
-
-    #caja3{
-        width: 40%;
-        height: 400px;
-        margin-left: 0;
-        margin-right:0;
-    }
-
-    #caja3 img{
-        width: 100%;
-        height: 75%;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    #tabla3{
-        width: 96%;
-        height: 400px;
-        padding: 5px;
-    }
-
-    #tabla3 p{
-        color: white;
-        font-size: 13px;
-        text-align: justify;
-        padding-top: 0;
-        padding-left:10px;
-        padding-right:0 ;
-    }
-    #tabla3 a{
-        padding-left:5px;
-    }
-
-    .card{
-        margin-left: 11%;
-    }
 }
-
 
